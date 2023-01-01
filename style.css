@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppinsplay=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: rgb(177, 90, 109);
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 50px; /* taas ito yung may search games kung gaano ka taas */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: pink;
+  transition: 0.5s;
+  z-index: 1000;
+}
+header .logo{
+  position: relative;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 700;
+}
+header .nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  list-style: none;
+  margin: 10px;
+}
+header ul li a{ /* ito yung about sa home, about us, KAHIT ANO  */
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+header ul li a:hover{ /* ito yung pag may natamaan yung cursor nung mouse ei magkakacolor same pa rin menaing ang maapektuhan lang neto is yung HOME, ABOUT us, KAHIT ANO */
+  background:rgb(64, 54, 57);
+  color: rgb(255, 251, 251);
+  box-shadow: 0 0 10px #29252b;
+
+}
+header .action .searchBx{ /* ito yung color nung sa may search box */
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  background: rgb(110, 102, 102);
+  border-radius: 5px;
+}
+header .action .searchBx i{ /* it yung laki nung MAGNIFYING GLASS */
+  font-size: 1em;
+  margin: 5px;
+  color: black;
+}
+header .action .searchBx input{ /* Kung gaano kalaki yung font o yung words na nasa loob nung search box */
+  outline: none;
+  border: none;
+  font-size: .9em;
+  color: black;
+}
+
+.banner{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+}
+.banner .bg{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .bg .content{ /* ITO YUNG BANNER NA SA LEFT SIDE LAHAT YUN BALE ITO YUNG OPTIION FOR POSITIONING */
+  width: 70%;
+  height: 100%;
+}
+.banner .bg .content h2{ /* MERRY CHRISTMAS TAS YUNG HAPPY */
+  font-size: 5em;
+  color: rgb(255, 252, 253);
+  letter-spacing: 1px;
+}
+.banner .bg .content p{ /* baba ito nung happy makikita nyo naman yung color yellow doon */
+  font-size: 1em;
+  color: rgb(231, 231, 0);
+  letter-spacing: 1px;
+}
+.banner .bg .content a{ /* ito yung sa may CLICK IT */
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid red;
+  text-decoration: none;
+  font-weight: 900;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+.banner .bg .content a:hover{ /* ito naman yung pag ihohover mo si daga yung cursor nya sa CLICK it, mapapnsin nyo naman sa color kung paano ayusin */
+  background: indianred;
+  border: none;
+  color:black;
+  box-shadow: 0 0 10px #29252b; /* bale ito dapay icocopy yung nasa line 49 para tugma, line 49 under sya nung style.css */
+}
+.banner .bg img{ /* about ito dun sa malaking pic yung may game hub kung gaano kalaki basta, happy new year guys */
+  width: 500px;
+}
