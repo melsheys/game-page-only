@@ -5,6 +5,33 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+ /* SCROLL BAR, puwede nyo ding baguhin kung gusto niyo */
+
+   /* width */
+  ::-webkit-scrollbar {
+  width: 10px;
+ }
+    
+    /* Track */
+  ::-webkit-scrollbar-track{
+  background: #f1f1f1;
+}
+    
+    /* Handle */
+  ::-webkit-scrollbar-thumb{
+  background: rgb(171, 34, 189);
+}
+    
+    /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover{
+  background: rgb(225, 255, 0);
+ } 
+
+
+ 
+
+
 body{
   background: rgb(177, 90, 109);
 }
